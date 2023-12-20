@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 
+import tab1 from "../../Components/FeaturesCard/images/illustration-features-tab-1.svg"
+import tab2 from "../../Components/FeaturesCard/images/illustration-features-tab-3.svg"
+import tab3 from "../../Components/FeaturesCard/images/illustration-features-tab-3.svg"
+
+
 const data = [
   {
     id: 1,
@@ -7,7 +12,7 @@ const data = [
     desc: "Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.",
     link: "More Info",
     button: " Simple Bookmarking",
-    image: "./images/illustration-features-tab-1.svg",
+    image: tab1,
   },
   {
     id: 2,
@@ -15,7 +20,7 @@ const data = [
     desc: "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.",
     link: "More Info",
     button: "Speedy Searching",
-    image: "./images/illustration-features-tab-2.svg",
+    image: tab2,
   },
   {
     id: 3,
@@ -23,7 +28,7 @@ const data = [
     desc: "Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.",
     link: "More Info",
     button: "Easy Sharing",
-    image: "./images/illustration-features-tab-3.svg",
+    image: tab3,
   },
 ];
 
