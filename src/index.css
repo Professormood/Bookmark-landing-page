@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,300;1,400&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.bg {
+  position: absolute;
+  background-color: #5368df;
+  right: 0;
+  height: 250px;
+  width: 100%;
+  z-index: -1;
+  border-radius: 200px 0 0 200px;
+  bottom: 0;
+}
+
+.bg-left {
+  position: absolute;
+  background-color: #5368df;
+  left: -32px;
+  height: 250px;
+  width: 100%;
+  z-index: -1;
+  border-radius: 0 200px 200px 0;
+  bottom: -50px;
+}
+
+@media (min-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .bg,
+  .bg-left {
+    height: 300px;
+  }
+ 
+
+  .bg {
+    right: -28%;
+    width: 100%;
+  }
+  .bg-left {
+    left: -60%;
+    width: 100%;
+  }
+}
+
+#Menu-Moblie{
+  background-color: hsl(229, 31%, 21%,0.9);
+}
+
+
+
