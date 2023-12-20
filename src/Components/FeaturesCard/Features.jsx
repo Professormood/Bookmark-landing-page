@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import tab1 from "../../Components/FeaturesCard/images/illustration-features-tab-1.svg"
-import tab2 from "../../Components/FeaturesCard/images/illustration-features-tab-3.svg"
+import tab2 from "../../Components/FeaturesCard/images/illustration-features-tab-2.svg"
 import tab3 from "../../Components/FeaturesCard/images/illustration-features-tab-3.svg"
 
 
